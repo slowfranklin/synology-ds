@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynolocalaccount
+Version: 6.1
+Description: Focus on privileged operations on user and group, extracted from sdk.
+Requires: libsynosdk
+Requires.private: synoscheduler libhwcontrol libsynocore libsynoservice
+Libs: -L${libdir} -lsynolocalaccount
+Cflags: -I${includedir}

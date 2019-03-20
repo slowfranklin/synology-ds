@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mediaindex
+Description: mediaindexx
+Version: 1.0
+Requires: synoindex synodb jsoncpp libsynoshare libsynocore libsynosdk
+Requires.private: enca
+Libs: -L${libdir} -lmediaindex
+Libs.private: -ljpeg
+Cflags: -I${includedir}

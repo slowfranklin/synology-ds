@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+pkglibdir=${exec_prefix}/lib/syslog-ng
+includedir=${prefix}/include
+
+Name: syslog-ng-test
+Description: Test helper package for syslog-ng modules
+Version: 3.7.3
+Requires.private: glib-2.0 syslog-ng
+Libs: -L${pkglibdir}/libtest -lsyslog-ng-test
+Cflags: -I${includedir}/syslog-ng/libtest

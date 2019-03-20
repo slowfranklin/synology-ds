@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synostoragecore
+Description: Synology storage core lib
+Version: 6.1
+Requires: libsynocore libsynoflashcache libsynosdk synousb libsynocredentials
+Requires.private: libsynosysnotify libhwcontrol libsynonetsdk libxml-2.0 libsynohacore libsynopoweroff libsynoservice libsynoahacore
+Libs: -L${libdir} -lsynostoragecore
+Libs.private: -ldl
+Cflags: -I${includedir}

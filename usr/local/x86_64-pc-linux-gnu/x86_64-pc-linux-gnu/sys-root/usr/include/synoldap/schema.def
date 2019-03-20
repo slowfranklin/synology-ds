@@ -1,0 +1,15 @@
+// vim:ft=c
+
+LDAP_SCHEMA_REC(top,			"top");
+LDAP_SCHEMA_REC(domain,			"domain");
+LDAP_SCHEMA_REC(extensibleObject,	"extensibleObject");
+LDAP_SCHEMA_REC(organizationalPerson,	"organizationalPerson");
+LDAP_SCHEMA_REC(person,			"person");
+LDAP_SCHEMA_REC(posixAccount,		"posixAccount");
+LDAP_SCHEMA_REC(posixGroup,		"posixGroup");
+LDAP_SCHEMA_REC(inetOrgPerson,		"inetOrgPerson");
+LDAP_SCHEMA_REC(shadowAccount,		"shadowAccount");
+LDAP_SCHEMA_REC(appleuser,		"apple-user");
+LDAP_SCHEMA_REC(applegroup,		"apple-group");
+LDAP_SCHEMA_REC(sambaSamAccount,	"sambaSamAccount");
+LDAP_SCHEMA_REC(sambaGroupMapping,	"sambaGroupMapping");

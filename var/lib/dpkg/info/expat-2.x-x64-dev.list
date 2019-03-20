@@ -1,0 +1,17 @@
+./
+./usr/
+./usr/local/
+./usr/local/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libexpat.so
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libexpat.so.1.6.0
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libexpat.so.1
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/pkgconfig/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/pkgconfig/expat.pc
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libexpat.a
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/expat_external.h
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/expat.h

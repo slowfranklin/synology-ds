@@ -1,0 +1,17 @@
+./
+./usr/
+./usr/local/
+./usr/local/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/pkgconfig/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/pkgconfig/libsynoahacore.pc
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoahacore/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoahacore/aha_webapi_core.h
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoahacore/aha_core.h
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoahacore/aha_encinfo.h
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synodoc/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synodoc/libsynoahacore.h

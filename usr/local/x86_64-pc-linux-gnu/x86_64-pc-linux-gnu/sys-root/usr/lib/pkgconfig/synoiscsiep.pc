@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoiscsiep
+Description: Synology iscsi lib
+Version: .
+Requires: libsynocore libsynosdk libsynofileop libsynostoragecore
+Requires.private: libhwcontrol libssl libsynosysnotify libsynohacore libcrypto uuid libsynonetsdk libsynofeasibilitycheck
+Libs: -L${libdir} -lsynoiscsiep
+Libs.private: -lpthread -lcrypt -lstdc++
+Cflags: -I${includedir} -pthread

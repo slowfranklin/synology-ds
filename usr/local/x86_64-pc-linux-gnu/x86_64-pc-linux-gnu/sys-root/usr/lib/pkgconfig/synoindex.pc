@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoindex
+Description: synoindex
+Version: 1.0
+Requires: jsoncpp libevent synodb libsynocore libsynosdk libsynofileop
+Requires.private: libsynoshare icu-i18n synoutilscpp
+Libs: -L${libdir} -lsynoindex
+Libs.private: -ldl
+Cflags: -I${includedir}

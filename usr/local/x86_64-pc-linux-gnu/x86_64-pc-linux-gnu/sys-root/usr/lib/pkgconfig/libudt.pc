@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libudt
+Description: libudt
+Version: 1.0
+Libs: -L/usr/lib -ludt
+Libs.private:
+Cflags: -I/usr/include

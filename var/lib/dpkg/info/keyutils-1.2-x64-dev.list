@@ -1,0 +1,14 @@
+./
+./usr/
+./usr/local/
+./usr/local/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/lib/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/lib/libkeyutils.a
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/lib/libkeyutils.so.1
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/lib/libkeyutils.so
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/lib/libkeyutils-1.2.so
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/keyutils.h

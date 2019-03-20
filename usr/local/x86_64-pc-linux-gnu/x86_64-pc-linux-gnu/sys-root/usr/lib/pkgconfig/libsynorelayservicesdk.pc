@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynorelayservicesdk
+Description: libsynorelayservicesdk
+Version: 1.0
+Requires: libsynocore
+Requires.private: libsynosdk libsynonetsdk
+Libs: -L${libdir} -lsynorelayservicesdk
+Cflags: -I${includedir}

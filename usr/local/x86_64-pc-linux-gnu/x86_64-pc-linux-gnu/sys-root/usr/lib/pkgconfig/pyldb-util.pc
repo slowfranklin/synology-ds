@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/samba-4
+modulesdir=${prefix}/lib/samba/ldb
+
+Name: pyldb-util
+Description: Python bindings for LDB
+Version: 1.1.26
+Requires: ldb
+Libs:  -L${libdir} -lpyldb-util
+Cflags: -I${includedir}
+URL: http://ldb.samba.org/

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libhwcontrol
+Description: synology hw control libs
+Version: 1.0
+Requires: libsynocore libsynosdk libxml-2.0 libsynocredentials libsynoahacore libsynohacore
+Requires.private: libsynoddsmcore libsynonetsdk
+Libs: -L${libdir} -lhwcontrol
+Libs.private: 
+Cflags: -I${includedir}

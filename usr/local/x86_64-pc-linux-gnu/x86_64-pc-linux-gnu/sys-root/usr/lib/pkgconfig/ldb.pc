@@ -1,0 +1,17 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+sambalibdir=${libdir}/samba
+includedir=${prefix}/include/samba-4
+modulesdir=${prefix}/lib/samba/ldb
+
+Name: ldb
+Description: An LDAP-like embedded database
+Version: 1.1.26
+Requires.private: tdb
+Requires: talloc tevent
+Libs:  -L${libdir} -lldb -L${sambalibdir}
+Libs.private: 
+Cflags: -I${includedir} 
+Modulesdir: ${modulesdir}
+URL: http://ldb.samba.org/

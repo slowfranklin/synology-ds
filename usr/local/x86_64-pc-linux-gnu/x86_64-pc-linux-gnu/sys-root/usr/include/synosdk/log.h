@@ -1,0 +1,262 @@
+// Copyright (c) 2000-2014 Synology Inc. All rights reserved.
+#ifndef __SYNO_LOG_H__
+#define __SYNO_LOG_H__
+
+#include <sys/cdefs.h>
+
+#include <synocore/list.h>
+
+__BEGIN_DECLS;
+
+/**
+ * @addtogroup LOG
+ *
+ * @brief The enum, struct and operations of Log.
+ *
+ * @{
+ */
+
+#define SZ_SYSTEM_USERNAME	"SYSTEM"
+
+/**
+ * Log class
+ */
+enum {
+	LOG1_SYS = 1,
+	LOG1_MAN,
+	LOG1_CON,
+	LOG1_CUR_CON,
+	LOG1_BAK,
+	LOG1_COPY,
+	LOG1_NET_BKP,
+	LOG1_CMS,
+	LOG1_DR,
+	LOG1_AHA,
+	LOG1_DOCKER,
+	LOG1_HA0,
+	LOG1_HA1,
+	LOG1_MAILPLUS_SERVER,
+	LOG1_BAK_SERVER,
+	LOG1_PORTFORWARD,
+	LOG1_PETASPACE,
+	LOG1_RESOURCE_MONITOR,
+	LOG1_SDR,
+	LOG1_END
+};
+
+/**
+ * Log format
+ */
+enum {
+	LOG1_FORMAT_BSD = 1,
+	LOG1_FORMAT_IETF,
+};
+
+/**
+ * Log type
+ */
+enum {
+	LOG1_INFO = 1,
+	LOG1_WARN,
+	LOG1_ERR,
+	LOG1_CRIT,
+};
+
+#define SZF_PKG_LOGCENTER_TARGET	"/var/packages/LogCenter/target"
+#define SZF_LOGCENTER_ENABLE_CONF	"/var/packages/LogCenter/enabled"
+#define SZF_SYNOSYSLOGSERVER_CONF	SZF_PKG_LOGCENTER_TARGET"/service/conf/server.conf"
+#define SZF_SYNOSYSLOGCLIENT_CONF	SZF_PKG_LOGCENTER_TARGET"/service/conf/client.conf"
+
+#define SZ_SYNOTAG_SYSTEM		"System"
+#define SZ_SYNOTAG_CONN			"Connection"
+#define SZ_SYNOTAG_CUR_CONN		"CurrentConnection"
+#define SZ_SYNOTAG_BACKUP		"Backup"
+#define SZ_SYNOTAG_USB_COPY		"UsbCopy"
+#define SZ_SYNOTAG_NET_BACKUP		"NetworkBackup"
+#define SZ_SYNOTAG_BACKUP_SERVER	"BackupServer"
+#define SZ_SYNOTAG_FTP			"FtpFileTransfer"
+#define SZ_SYNOTAG_TFTP			"TFtpFileTransfer"
+#define SZ_SYNOTAG_FILE_STATION		"FileStation"
+#define SZ_SYNOTAG_WEBDAV		"Webdav"
+#define SZ_SYNOTAG_WIN_FILE_SERVICE	"WinFileService"
+#define SZ_SYNOTAG_MAC_FILE_SERVICE	"MacFileService"
+#define SZ_SYNOTAG_CMS			"CMS"
+#define SZ_SYNOTAG_DR			"DisasterRecovery"
+#define SZ_SYNOTAG_AHA			"AHA"
+#define SZ_SYNOTAG_DOCKER		"Docker"
+#define SZ_SYNOTAG_HA0			"HA0"
+#define SZ_SYNOTAG_HA1			"HA1"
+#define SZ_SYNOTAG_MAILPLUS_SERVER	"MailPlus-Server"
+#define SZ_SYNOTAG_PORTFORWARD		"PortForward"
+#define SZ_SYNOTAG_PETASPACE	"PetaSpace"
+#define SZ_SYNOTAG_RESOURCE_MONITOR  "ResourceMonitor"
+#define SZ_SYNOTAG_SDR			"SystemDR"
+
+#define SZF_SYSLOG_SCKT			"/var/run/syslog"
+#define SZ_SYSLOG_SYSTEM_PATH		"/var/log/synolog/synosys.log"
+#define SZ_SYSLOG_CONN_PATH		"/var/log/synolog/synoconn.log"
+
+/**
+ * RFC 3164 facility definitions
+ */
+enum {
+	FAC_KERNEL_MESSAGES = 0,
+	FAC_USER_LEVEL_MESSAGES,
+	FAC_MAIL_SYSTEM,
+	FAC_SYSTEM_DAEMONS,
+	FAC_SECURITY_MESSAGES,
+	FAC_GENERATED_BY_SYSLOGD,
+	FAC_LINE_PRINTER_SUBSYSTEM,
+	FAC_NETWORK_NEWS_SUBSYSTEM,
+	FAC_UUCP_SUBSYSTEM
+};
+
+/**
+ * RFC 3164 severity definitions
+ */
+enum {
+	SEV_EMERGENCY = 0,	//emerg
+	SEV_ALERT,		//alert
+	SEV_CRITICAL,		//crit      ->LOG1_CRIT
+	SEV_ERROR,		//err		->LOG1_ERR
+	SEV_WARNING,		//warning	->LOG1_WARN
+	SEV_NOTICE,		//notice
+	SEV_INFORMATIONAL,	//info		->LOG1_INFO
+	SEV_DEBUG		//debug
+};
+
+typedef struct {
+	int Format;
+	int Facility;
+	int Severity;
+	char *szTimeStamp;
+	char *szHostname;
+	char *szTag;
+	char *szContent;
+	char *szSD;
+}SYNOSYSLOG;
+
+#define LOG_ERR_EXP_TIME				0x12100001
+#define LOG_ERR_IMP_TIME				0x12100002
+#define LOG_ERR_EXP_HOSTNAME				0x12100003
+#define LOG_ERR_IMP_HOSTNAME				0x12100004
+#define LOG_ERR_EXP_INTERFACE				0x12100005
+#define LOG_ERR_IMP_INTERFACE				0x12100006
+#define LOG_ERR_EXP_LANG            			0x12100007
+#define LOG_ERR_IMP_LANG				0x12100008
+#define LOG_ERR_EXP_MAIL				0x12100009
+#define LOG_ERR_IMP_MAIL				0x1210000A
+#define LOG_ERR_EXP_SHARE				0x1210000B
+#define LOG_ERR_IMP_SHARE				0x1210000C
+#define LOG_ERR_EXP_APPLE				0x1210000D
+#define LOG_ERR_IMP_APPLE				0x1210000E
+#define LOG_ERR_EXP_WINDOWS				0x1210000F
+#define LOG_ERR_IMP_WINDOWS				0x12100010
+#define LOG_ERR_EXP_USER				0x12100011
+#define LOG_ERR_IMP_USER				0x12100012
+#define LOG_ERR_EXP_GROUP				0x12100013
+#define LOG_ERR_IMP_GROUP				0x12100014
+#define LOG_ERR_EXP_HDSLEEPTIME				0x12100015
+#define LOG_ERR_IMP_HDSLEEPTIME				0x12100016
+#define LOG_ERR_EXP_RUNFTPD				0x12100017
+#define LOG_ERR_IMP_RUNFTPD				0x12100018
+#define LOG_ERR_EXP_USBBKPSCHEDULE			0x12100019
+#define LOG_ERR_IMP_USBBKPSCHEDULE			0x1210001A
+#define LOG_ERR_EXP_PPPOE				0x1210001B
+#define LOG_ERR_IMP_PPPOE				0x1210001C
+#define LOG_ERR_EXP_USBBKPSHARELIST			0x1210001D
+#define LOG_ERR_IMP_USBBKPSHARELIST			0x1210001E
+#define LOG_ERR_EXP_RUNPHOTO				0x1210001F
+#define LOG_ERR_IMP_RUNPHOTO				0x12100020
+
+//next number is in conflict with LOG_SUC_EXP_TIME, jump to 0x12100101
+#define LOG_ERR_EXP_RUNWEB				0x12100101
+#define LOG_ERR_IMP_RUNWEB				0x12100102
+#define LOG_ERR_EXP_MTU					0x12100103
+#define LOG_ERR_IMP_MTU					0x12100104
+#define LOG_ERR_EXP_RCPOWER				0x12100105
+#define LOG_ERR_IMP_RCPOWER				0x12100106
+#define LOG_ERR_EXP_USBCOPYSET				0x12100107
+#define LOG_ERR_IMP_USBCOPYSET				0x12100108
+#define LOG_ERR_EXP_HTTPPORT				0x12100109
+#define LOG_ERR_IMP_HTTPPORT				0x1210010A
+#define LOG_ERR_EXP_DCACHE				0x1210010B
+#define LOG_ERR_IMP_DCACHE				0x1210010C
+#define	LOG_ERR_EXP_DOWNLOADSTATION			0x1210010D
+#define	LOG_ERR_IMP_DOWNLOADSTATION			0x1210010E
+#define LOG_ERR_EXP_RUNMYSQL				0x1210010F
+#define LOG_ERR_IMP_RUNMYSQL				0x12100110
+#define LOG_ERR_EXP_USER_QUOTA				0x12100115
+#define LOG_ERR_IMP_USER_QUOTA				0x12100116
+
+#define LOG_SUC_EXP_TIME				0x12100021
+#define LOG_SUC_IMP_TIME				0x12100022
+#define LOG_SUC_EXP_HOSTNAME				0x12100023
+#define LOG_SUC_IMP_HOSTNAME				0x12100024
+#define LOG_SUC_EXP_INTERFACE				0x12100025
+#define LOG_SUC_IMP_INTERFACE				0x12100026
+#define LOG_SUC_EXP_LANG            			0x12100027
+#define LOG_SUC_IMP_LANG				0x12100028
+#define LOG_SUC_EXP_MAIL				0x12100029
+#define LOG_SUC_IMP_MAIL				0x1210002A
+#define LOG_SUC_EXP_SHARE				0x1210002B
+#define LOG_SUC_IMP_SHARE				0x1210002C
+#define LOG_SUC_EXP_APPLE				0x1210002D
+#define LOG_SUC_IMP_APPLE				0x1210002E
+#define LOG_SUC_EXP_WINDOWS				0x1210002F
+#define LOG_SUC_IMP_WINDOWS				0x12100030
+#define LOG_SUC_EXP_USER				0x12100031
+#define LOG_SUC_IMP_USER				0x12100032
+#define LOG_SUC_EXP_GROUP				0x12100033
+#define LOG_SUC_IMP_GROUP				0x12100034
+#define LOG_SUC_EXP_HDSLEEPTIME				0x12100035
+#define LOG_SUC_IMP_HDSLEEPTIME				0x12100036
+#define LOG_SUC_EXP_RUNFTPD				0x12100037
+#define LOG_SUC_IMP_RUNFTPD				0x12100038
+#define LOG_SUC_EXP_USBBKPSCHEDULE			0x12100039
+#define LOG_SUC_IMP_USBBKPSCHEDULE			0x1210003A
+#define LOG_SUC_EXP_PPPOE				0x1210003B
+#define LOG_SUC_IMP_PPPOE				0x1210003C
+#define LOG_SUC_EXP_USBBKPSHARELIST			0x1210003D
+#define LOG_SUC_IMP_USBBKPSHARELIST			0x1210003E
+#define LOG_SUC_EXP_RUNPHOTO				0x1210003F
+#define LOG_SUC_IMP_RUNPHOTO				0x12100040
+
+//next number is in conflict with LOG_SUC_EXP_ALL, jump to 0x12100201
+#define LOG_SUC_EXP_RUNWEB				0x12100201
+#define LOG_SUC_IMP_RUNWEB				0x12100202
+#define LOG_SUC_EXP_MTU					0x12100203
+#define LOG_SUC_IMP_MTU					0x12100204
+#define LOG_SUC_EXP_RCPOWER				0x12100205
+#define LOG_SUC_IMP_RCPOWER				0x12100206
+#define LOG_SUC_EXP_USBCOPYSET				0x12100207
+#define LOG_SUC_IMP_USBCOPYSET				0x12100208
+#define LOG_SUC_EXP_HTTPPORT				0x12100209
+#define LOG_SUC_IMP_HTTPPORT				0x1210020A
+#define LOG_SUC_EXP_DCACHE				0x1210020B
+#define LOG_SUC_IMP_DCACHE				0x1210020C
+
+#define LOG_SUC_EXP_RUNMYSQL				0x1210020D
+#define LOG_SUC_IMP_RUNMYSQL				0x1210020E
+#define LOG_SUC_EXP_USER_QUOTA				0x1210020F
+#define LOG_SUC_IMP_USER_QUOTA				0x12100210
+
+//#define LOG_SUC_EXP_ALL				0x12100041	 //move to export.cgi
+#define LOG_SUC_IMP_ALL					0x12100042
+#define LOG_SUC_OVERWRITE_ALL				0x12100043
+
+#define LOG_ERR_IMPORT_EXCEED_SHARE_LIMIT		0x12100051
+#define LOG_ERR_IMPORT_EXCEED_USER_LIMIT		0x12100052
+#define LOG_ERR_IMPORT_EXCEED_GROUP_LIMIT		0x12100053
+
+/**
+ * @}
+ */
+
+#ifndef NO_PROTO
+#include <availability.h>
+#include <synosdk/log_p.h>
+#endif // NO_PROTO
+
+__END_DECLS;
+#endif // __SYNO_LOG_H__

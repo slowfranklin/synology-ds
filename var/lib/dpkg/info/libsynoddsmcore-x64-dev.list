@@ -1,0 +1,16 @@
+./
+./usr/
+./usr/local/
+./usr/local/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libsynoddsmcore.a
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/pkgconfig/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/pkgconfig/libsynoddsmcore.pc
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libsynoddsmcore.so
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoddsmcore/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoddsmcore/synoddsmcore.h
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/synoddsmcore/communicate.h

@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoddns
+Description: Synology DDNS client libs
+Version: 1.0
+Requires: libsynocore libcurl
+Requires.private: libsynosdk libsynonetsdk libsynocloudservice libsynomyds libsynosysnotify json-c openssl libsynocredentials
+Libs: -L${libdir} -lsynoddnsclient
+Cflags: -I${includedir}

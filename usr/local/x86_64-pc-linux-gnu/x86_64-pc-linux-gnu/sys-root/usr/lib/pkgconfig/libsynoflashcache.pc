@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libsynoflashcache
+Description: synology library for flashcache
+Version: 1.0
+Requires: libsynocore
+Libs: -L${libdir} -lsynoflashcache
+Libs.private:
+Cflags: -I${includedir}

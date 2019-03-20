@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 9.3.14
+Requires: 
+Requires.private: 
+Cflags: -I/usr/include
+Libs: -L/usr/lib -lpgtypes
+Libs.private:  -lm

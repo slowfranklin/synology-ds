@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/samba-4
+
+Name: synosmb
+Description: Synology Library For SAMBA
+Version: 6.1.0
+Libs:  -L${libdir} -lsynosmb
+Cflags: -I${includedir} 

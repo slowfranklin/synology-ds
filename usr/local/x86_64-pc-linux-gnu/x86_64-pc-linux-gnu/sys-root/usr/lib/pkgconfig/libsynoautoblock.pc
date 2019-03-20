@@ -1,0 +1,11 @@
+libdir=/usr/lib
+includedir=/usr/include/synoautoblock
+
+Name: libsynoautoblock
+Description: Synology Autoblock library
+Version: 6.1
+
+Requires: libsynocore libsynosdk
+Requires.private: sqlite3 libsynosysnotify libsynonetsdk
+Libs: -L${libdir} -lsynoautoblock
+Cflags: -I${includedir}

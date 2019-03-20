@@ -1,0 +1,12 @@
+#libsynomyds.pc.in
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynomyds
+Description: libsynomyds
+Version: 1.0
+Requires.private: openssl libcurl libsynocore
+Libs: -L${libdir} -lsynomyds
+Cflags: -I${includedir}

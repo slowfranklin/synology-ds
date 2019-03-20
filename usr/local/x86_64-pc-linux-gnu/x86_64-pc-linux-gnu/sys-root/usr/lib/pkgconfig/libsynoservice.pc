@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoservice
+Version: 6.1
+Description: DS service related API and tools, extracted from sdk.
+Requires:
+Libs: -L${libdir} -lsynoservice
+Cflags: -I${includedir} -I/usr/include/json-c 

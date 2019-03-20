@@ -1,0 +1,56 @@
+#!/bin/sh
+
+usage()
+{
+	echo "usage: $0 [OPTIONS]"
+cat << EOH
+
+options:
+	[--libs]
+	[--cflags]
+	[--version]
+	[--prefix]
+EOH
+	exit 1;
+}
+
+sysroot=/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+flags=""
+
+if test $# -eq 0 ; then
+  usage
+fi
+
+while test $# -gt 0
+do
+  case $1 in
+    --libs)
+	  flags="$flags -L$sysroot$libdir -ltag"
+	  ;;
+    --cflags)
+	  flags="$flags -I$sysroot$includedir/taglib"
+	  ;;
+    --version)
+	  echo 1.9.1 
+	  ;;
+    --prefix)
+	  echo $prefix
+	  ;;
+	*)
+	  echo "$0: unknown option $1"
+	  echo
+	  usage
+	  ;;
+  esac
+  shift
+done
+
+if test -n "$flags"
+then
+  echo $flags
+fi

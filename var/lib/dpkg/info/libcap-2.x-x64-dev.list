@@ -1,0 +1,17 @@
+./
+./usr/
+./usr/local/
+./usr/local/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libcap.so
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libcap.so.2
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libcap.a
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/libcap.so.2.22
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/security/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/security/pam_cap.so
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/sys/
+./usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/include/sys/capability.h

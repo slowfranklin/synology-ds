@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synologd
+Description: Synology Log library
+Version: 1.0
+Requires: libsynosdk
+Requires.private: libsynocore synodb libpq
+Libs: -L${libdir} -lsynolog
+Cflags: -I${includedir} -I/usr/include/postgresql

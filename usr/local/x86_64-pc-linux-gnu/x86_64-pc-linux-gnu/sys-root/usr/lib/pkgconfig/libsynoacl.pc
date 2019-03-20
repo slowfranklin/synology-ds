@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoacl
+Description: Synology ACL library
+Version: 1.0
+Requires: libsynocore
+#-L -l
+Libs: -L/usr/lib -lsynoacl
+Libs.private: -ldl
+Cflags: -I/usr/include -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE

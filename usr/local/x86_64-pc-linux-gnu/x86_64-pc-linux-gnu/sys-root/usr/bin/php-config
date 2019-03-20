@@ -1,0 +1,91 @@
+#! /bin/sh
+
+sysroot=/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root
+SED="/bin/sed"
+prefix="/usr"
+datarootdir="/usr/share"
+exec_prefix="/usr"
+version="5.6.11"
+vernum="50611"
+include_dir="${sysroot}${prefix}/include/php"
+includes="-I$include_dir -I$include_dir/main -I$include_dir/TSRM -I$include_dir/Zend -I$include_dir/ext -I$include_dir/ext/date/lib"
+ldflags=" -L/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib"
+libs="-lcrypt   -lresolv -lcrypt -lreadline -lncurses -lz -lm -ldl -lxml2 -lz -lm -ldl -lxml2 -lz -lm -ldl -lxml2 -lz -lm -ldl -lcrypt -lxml2 -lz -lm -ldl -lxml2 -lz -lm -ldl -lxml2 -lz -lm -ldl -lcrypt "
+extension_dir='/usr/lib/php/modules'
+man_dir=`eval echo ${datarootdir}/man`
+program_prefix=""
+program_suffix=""
+exe_extension=""
+php_cli_binary=NONE
+php_cgi_binary=NONE
+configure_options=" '--host=x86_64-pc-linux-gnu' '--target=x86_64-pc-linux-gnu' '--build=i686-pc-linux-gnu' '--prefix=/usr' '--exec-prefix=/usr' '--sbindir=/usr/bin' '--sysconfdir=/etc/php' '--localstatedir=/var' '--with-layout=Synology' '--program-prefix=' '--with-config-file-path=/etc/php' '--disable-rpath' '--without-pear' '--disable-all' '--enable-bcmath=shared' '--enable-ctype' '--enable-dom' '--enable-filter' '--enable-hash' '--enable-json' '--enable-libxml' '--enable-mbstring' '--enable-pdo' '--enable-phar=shared' '--enable-pcntl' '--enable-posix=shared' '--enable-session' '--enable-shmop=shared' '--enable-simplexml' '--enable-sockets=shared' '--enable-xml' '--enable-xmlreader' '--enable-xmlwriter' '--enable-zip=shared' '--with-bz2=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-curl=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-iconv=shared' '--with-ldap=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-ldap-sasl=/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-libxml-dir=/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-mcrypt=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-openssl=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-pdo-sqlite=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-readline=/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-sqlite3=shared,/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--with-zlib=/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr' '--enable-cli' '--disable-cgi' '--disable-fpm' 'build_alias=i686-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=x86_64-pc-linux-gnu' 'CC=/usr/local/x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu-ccache-gcc' 'CFLAGS=-DSYNOPLAT_F_X86_64 '-O2' '-include' '-DSYNO_ENVIRONMENT' '-DBUILD_ARCH=64' '-D_LARGEFILE64_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DSYNO_RUNNING_DSM_BUILD_SYSTEM' '-g' '-pipe' '-fstack-protector' '--param=ssp-buffer-size=4' '-Wformat' '-Wformat-security' '-D_FORTIFY_SOURCE=2' '-O2' '-Wno-unused-result'' 'LDFLAGS= '-Wl,-z,relro' '-Wl,--as-needed' '-Wl,--no-undefined'' 'LIBS=-ldl' 'CPPFLAGS=-DSYNOPLAT_F_X86_64 '-O2' '-include' '-DSYNO_ENVIRONMENT' '-DBUILD_ARCH=64' '-D_LARGEFILE64_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DSYNO_RUNNING_DSM_BUILD_SYSTEM' '-g' '-pipe' '-fstack-protector' '--param=ssp-buffer-size=4' '-Wformat' '-Wformat-security' '-D_FORTIFY_SOURCE=2' '-O2' '-Wno-unused-result'' 'CXX=/usr/local/x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu-ccache-g++' 'CXXFLAGS=-DSYNOPLAT_F_X86_64 '-O2' '-include' '-DSYNO_ENVIRONMENT' '-DBUILD_ARCH=64' '-D_LARGEFILE64_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DSYNO_RUNNING_DSM_BUILD_SYSTEM' '-g' '-pipe' '-fstack-protector' '--param=ssp-buffer-size=4' '-Wformat' '-Wformat-security' '-D_FORTIFY_SOURCE=2' '-O2' '-Wno-unused-result''"
+php_sapis=" cli"
+
+# Set php_cli_binary and php_cgi_binary if available
+for sapi in $php_sapis; do
+  case $sapi in
+  cli)
+    php_cli_binary="${exec_prefix}/bin/${program_prefix}php${program_suffix}${exe_extension}"
+    ;;
+  cgi)
+    php_cgi_binary="${exec_prefix}/bin/${program_prefix}php-cgi${program_suffix}${exe_extension}"
+    ;;
+  esac
+done
+
+# Determine which (if any) php binary is available
+if test "$php_cli_binary" != "NONE"; then
+  php_binary="$php_cli_binary"
+else
+  php_binary="$php_cgi_binary"
+fi
+
+# Remove quotes
+configure_options=`echo $configure_options | $SED -e "s#'##g"`
+
+case "$1" in
+--prefix)
+  echo $prefix;;
+--includes)
+  echo $includes;;
+--ldflags)
+  echo $ldflags;;
+--libs)
+  echo $libs;;
+--extension-dir)
+  echo $extension_dir;;
+--include-dir)
+  echo $include_dir;;
+--php-binary)
+  echo $php_binary;;
+--php-sapis)
+  echo $php_sapis;;
+--configure-options)
+  echo $configure_options;;
+--man-dir)
+  echo $man_dir;;
+--version)
+  echo $version;;
+--vernum)
+  echo $vernum;;
+*)
+  cat << EOF
+Usage: $0 [OPTION]
+Options:
+  --prefix            [$prefix]
+  --includes          [$includes]
+  --ldflags           [$ldflags]
+  --libs              [$libs]
+  --extension-dir     [$extension_dir]
+  --include-dir       [$include_dir]
+  --man-dir           [$man_dir]
+  --php-binary        [$php_binary]
+  --php-sapis         [$php_sapis]
+  --configure-options [$configure_options]
+  --version           [$version]
+  --vernum            [$vernum]
+EOF
+  exit 1;;
+esac
+
+exit 0

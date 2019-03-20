@@ -1,0 +1,16 @@
+/* Copyright (c) 2000-2013 Synology Inc. All rights reserved. */
+
+#ifndef _SYNO_WIRELESS_USBMODEM_ENUM_HPP_
+#define _SYNO_WIRELESS_USBMODEM_ENUM_HPP_
+
+enum SIM_PROTECTION_STATS {
+	PS_READY,
+	PS_PINREQ,
+	PS_PUKREQ,
+	PS_MUTE,
+	PS_BUSY,
+	PS_ERROR,
+	PS_NOSIM,
+	PS_UNKNOWN
+};
+#endif /* _SYNO_WIRELESS_USBMODEM_ENUM_HPP_ */

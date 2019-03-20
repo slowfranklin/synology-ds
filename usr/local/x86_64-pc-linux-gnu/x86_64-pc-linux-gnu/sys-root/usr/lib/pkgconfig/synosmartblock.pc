@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=${prefix}
+include_dir=${prefix}/include
+lib_dir=${exec_prefix}/lib
+
+Name: synosmartblock
+Version: 6.1
+Description: smart-block library
+Requires: 
+Requires.private: libsodium sqlite3 libsynocore libsynosdk libsynonetsdk libsynosysnotify
+Libs: -L${lib_dir} -lsynosmartblock
+Libs.private: 
+Cflags: -I${include_dir}

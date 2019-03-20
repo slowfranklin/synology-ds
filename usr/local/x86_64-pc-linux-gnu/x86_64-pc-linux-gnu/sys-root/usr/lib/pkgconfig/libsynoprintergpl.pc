@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoprintergpl
+Version: 6.1
+Description: Synology printer lib with GPL
+Requires: libsynocore libsynosdk
+Libs: -L${libdir} -lsynoprintergpl
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoproxy
+Description: Synology Proxy libs
+Version: 1.0
+Libs: -L${libdir} -lsynoproxy
+Cflags: -I${includedir} -DSDK_DEBUG -D_DEFAULT_SOURCE -D_BSD_SOURCE -D__BSD_SOURCE -D__FAVOR_BSD -DHAVE_NET_ETHERNET_H -D_SVID_SOURCE -DSYNO_UNICODE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -DRAID5_RESHAPE -D_GNU_SOURCE

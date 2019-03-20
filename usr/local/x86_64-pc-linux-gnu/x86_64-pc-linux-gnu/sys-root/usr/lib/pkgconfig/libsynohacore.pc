@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynohacore
+Description: Synology High-Availability Library
+Version: 1.0
+Requires:  libsynocore
+Requires.private:  
+Libs: -L${libdir} -lsynohacore
+Libs.private:  -ldl -lstdc++
+Cflags: -I${includedir}

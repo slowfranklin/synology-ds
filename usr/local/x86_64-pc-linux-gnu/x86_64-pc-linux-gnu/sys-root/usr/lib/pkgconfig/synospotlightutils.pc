@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: synospotlightutils
+Version: 1.0
+Description: Synology content search library
+Requires: libxml-2.0 libsynocore
+Requires.private: 
+Libs: -L${libdir} -lsynospotlightutils
+Libs.private: 
+Cflags: 

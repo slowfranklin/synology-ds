@@ -1,0 +1,6 @@
+Name: synousb
+Description: Synology usb lib
+Version: 6.1
+Requires.private: libsynocore
+Libs: -lsynousb
+Cflags:

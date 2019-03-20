@@ -1,0 +1,15 @@
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/db/db.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/mpool/mpool.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_close.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_conv.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_debug.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_delete.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_get.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_open.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_overflow.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_page.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_put.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_search.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_seq.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_split.o
+/usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/source/bdb.1.85/btree/bt_utils.o

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libfindhost
+
+Name: libfindhost
+Description: Synology FindHost SDK (libfindhost)
+Version: 4.3-3702
+Requires: libsynocore
+Requires.private: libsynosdk libsynonetsdk
+Libs: -L${libdir} -lfindhost
+Libs.private: -lm
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synousbcopy
+Description: Synology usbcopy lib
+Version: 6.1
+Requires: libsynosdk libsynofileop synousb
+Requires.private: libsynocore libsynostoragecore libsynosysnotify libhwcontrol libsynostoragecore libsynonetsdk
+Libs: -L${libdir} -lsynousbcopy
+Cflags: -I${includedir}

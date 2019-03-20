@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=${prefix}
+include_dir=${prefix}/include
+lib_dir=${exec_prefix}/lib
+
+Name: synodaemon
+Version: 6.1
+Description: syno daemon library
+Requires: jsoncpp libsynosdk libsynocore libevent
+Requires.private: 
+Libs: -L${lib_dir} -lsynodaemon
+Libs.private: -lm -lpthread -lrt
+Cflags: -I${include_dir}

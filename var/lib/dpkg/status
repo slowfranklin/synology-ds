@@ -1,0 +1,1854 @@
+Package: keyutils-1.2-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosdk-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosdutils-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoprinter-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: bdb-5.x-virtual-32-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synospotlightutils-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libnih-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libffi-3.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: alsa-lib-1.0.25-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: gdbm-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynocredentials-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: sg3-utils-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: nettle-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: linux-pam-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: dcraw-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoportforwarding-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libfindhost-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: gmp-6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: curl-7.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: syno-access-token-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: bdb.1.85-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynomyds-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: lame-3.99.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosmtp-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: zlib-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynonetsdk-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: protobuf-2.4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libpng-1.2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synokm-utils-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: sqlite-3.8.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: kmod-16-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: fontconfig-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: openssl-fips-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: bluez-4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: php-5.6-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynowins-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoovs-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: e2fsprogs-1.42-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libgphoto2-2.1.99-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoutilscpp-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: faac-1.28-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: librpcsecgss-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: attr-2.4.44-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosharesnapshot-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoahacore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoglusterfs-dsm-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: openssl-fips-2.0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libgcrypt-1.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: fuse-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynovmcomm-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: iptables-1.4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synousb-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: ffmpeg-2.7.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoshare-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosas-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: mbedtls-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libnet-1.x-virtual-uclibc-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoacl-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynohacore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosystemdrcore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: boost-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynotc-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libksba-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: neon-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: cups-2.0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoafp-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: curl-7.x-virtual-junior-wins-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: linux-3.10.x-virtual-headers-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: samba-4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: syslog-ng-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libusb-0.1.12-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: krb5-1.12.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: ghostscript-9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synocontentsearchutils-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoiscsiep-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: popt-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynodaemon-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: poppler-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynossh-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synodb-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libdaemon-0.14-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libbsd-0.2.0-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: sysfsutils-2.1.0-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: bdb-5.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libgssglue-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: intelce-utilities-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoflashcache-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynow3-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynobandwidth-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libgpg-error-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: lzo-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: opencore-amr-0.1.2-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libassuan-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynorecycle-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: openldap-2.4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: icu-56.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynofileop-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoservice-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoindex-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: expat-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: wvstreams-4.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libxml2-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: linux-3.10.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libpng-1.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libproxy-0.4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynorandom-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoquota-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsodium-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libaio-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: gtest-1.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: apparmor-2.9.x-virtual-libapparmor-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: taglib-1.9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynocgi-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: cyrus-sasl-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libnl-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: google-authenticator-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libtiff-4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libxmltok-1.2-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: ppp-2.4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: tcp-wrappers-7.6-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: nut-2.6-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoftp-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libupnp-1.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: pcre-8.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: check-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: dbus-glib-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynostoragecore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libjpeg-turbo-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: x264-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: ncurses-5.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: luceneplusplus-3.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: netatalk-3.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libmcrypt-2.5.8-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: enca-1.13-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libevent-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: compat-wireless-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: glib-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoldap-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynorelayservicesdk-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: lio-4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: postgresql-9.3.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynofeasibilitycheck-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: dbus-1.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: net-snmp-5.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoautoblock-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: nfs-utils-1.2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: pth-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: glib-networking-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosysnotify-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libdbi-0.9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libssh2-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: xz-5.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoiscsitop-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libplist-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: freetype-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynosmartblock-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynowireless-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynocurconn-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynopoweroff-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: python-2.7.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoddns-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synousbcopy-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: gnutls-3.3.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libtirpc-0.2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: c-ares-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoproxy-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libnfsidmap-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: readline-6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoprintergpl-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: bzip2-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: imagemagick-6.9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: uthash-1.9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: lcms2-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: eventlog-0.2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: json-c-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libdbi-drivers-0.9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libhwcontrol-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libpcg-0.9.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: parted-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synologd-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libcap-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: qpdf-5.1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: avahi-0.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoserviceutil-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libnet-1.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: syno-pam-login-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libexif-0.6.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoserviceconf-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynocloudservice-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synofirewall-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: jsoncpp-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synobios-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynolocalaccount-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: util-linux-2.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynoddsmcore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: openssl-1.0.2-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synodataverifier-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynonfs-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynocore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynonvme-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libsynovdsmcore-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: synoscheduler-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: cgmanager-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libical-0.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: libnatpmp-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+
+Package: udt-4.x-x64-dev
+Version: 6.1-15152
+Section: main
+Priority: optional
+Architecture: all
+Maintainer: Synology Inc.
+Description: Synology build-time library
+Status: install ok installed
+

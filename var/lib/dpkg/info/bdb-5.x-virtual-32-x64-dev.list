@@ -1,0 +1,17 @@
+./
+./usr/
+./usr/local/
+./usr/local/i686-pc-linux-gnu/
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/lib/
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/lib/libdb.so
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/lib/libdb.a
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/lib/libdb-5.1.a
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/lib/libdb-5.1.so
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/lib/libdb-5.so
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/include/
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/include/db_cxx.h
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/include/db_185.h
+./usr/local/i686-pc-linux-gnu/i686-pc-linux-gnu/sys-root/usr/include/db.h

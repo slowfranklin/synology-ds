@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynocore
+Description: synology core libs
+Version: 1.0
+Requires.private:  libsynocredentials icu-i18n icu-uc
+Libs: -L${libdir} -lsynocore
+Libs.private:  -lpthread -lcrypt
+Cflags: -I${includedir} 

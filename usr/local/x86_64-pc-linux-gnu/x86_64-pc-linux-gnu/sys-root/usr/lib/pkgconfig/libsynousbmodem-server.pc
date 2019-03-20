@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynousbmodem-server
+Version: 1.0
+Description: Synology Wireless USBModem library
+Requires: libsynocore libsynosdk
+Requires.private: libwvstreams libsynokm libsynonetsdk libsynonetsdkcpp libsynotc libsynohacore libsynofileop libhwcontrol libfindhost dbus-1 glib-2.0 dbus-glib-1 jsoncpp libupnp libsynoovs
+Libs: -L${libdir} -lsynousbmodem-server
+Cflags: -I${includedir}/synowireless

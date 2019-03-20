@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synocontentsearchutils
+Version: 1.0
+Description: Interface to content search daemon library
+Requires: libsynocore, libsynosdk, libsynofileop, jsoncpp libsynodaemon
+Libs: -L${libdir} -lsynocontentsearchutils 
+Cflags: -I${includedir}  

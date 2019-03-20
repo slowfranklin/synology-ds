@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynosysnotify
+Description: Synology storage core lib
+Version: 6.1
+Requires: libsynocore
+Requires.private: libsynosdk sqlite3 libsynoahacore libsynonetsdk libsynocredentials
+Libs: -lsynosysnotify
+Libs.private: -ldl
+Cflags: -I${includedir}

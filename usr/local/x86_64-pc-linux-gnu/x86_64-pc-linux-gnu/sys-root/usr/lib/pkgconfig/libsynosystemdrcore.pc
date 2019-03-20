@@ -1,0 +1,5 @@
+Name: libsynosystemdrcore
+Version: 6.1
+Description: lib Synology SYNOSYSDR Core C++ Library
+Libs: -lsynosystemdrcore -lsynocore -ljson 
+Cflags: -DSYNO_ARRAY_SEARCH -DSYNO_CONVERT_PATCH -DSYNO_WRITE_PATCH -DSYNO_READ_PATCH -DSYNO_DSM_6_0 -DSYNO_ASSERT_PATCH  

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynonetsdk
+Version: 1.0
+Description: Synology Network CPP library
+Requires: libsynocore libsynosdk dbus-1
+Requires.private: libsynoddsmcore libsynohacore glib-2.0 dbus-glib-1 libsynoservice libsynoahacore
+Cflags: -I${includedir}
+Libs: -L${libdir} -lsynonetsdk -lsynonetsdkcpp
+Libs.private: -lstdc++ -pthread -lpthread

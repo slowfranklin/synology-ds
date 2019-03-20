@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/googleauth
+
+Name: google-authenticator-1.x
+Description: Google Authenticator 1.0
+Version: 1.0
+Requires.private: libsynosdk
+Libs.private: -lpam
+Libs: -L${libdir} -lgoogleauth
+Cflags: -I${includedir}

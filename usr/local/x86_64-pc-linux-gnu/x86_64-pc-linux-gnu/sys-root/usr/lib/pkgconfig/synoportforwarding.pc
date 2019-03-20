@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoportforward
+Description: Synology Portforward libs
+Version: 1.0
+Requires: libsynocore libsynosdk
+Requires.private: libsynonetsdk openssl
+Libs: -L${libdir} -lsynoportforward
+Cflags: -I${includedir}

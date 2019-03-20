@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynosharesnapshot
+Version: 6.1
+Description: DSM share snapshot lib
+Requires: libsynoacl libsynoquota libsynocore libsynostoragecore libsynoserviceconf libsynofirewall libsynosysnotify
+Requires.private: libcrypto libsynofileop libsynosdk libsynonetsdk
+Libs: -L${libdir} -lsynosharesnapshot
+Cflags: -I${includedir}

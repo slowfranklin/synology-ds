@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynossh
+Description: libsynossh core libs
+Version: 1.0
+Requires.private: libsynosdk libsynocore
+Libs: -L${libdir} -lsynossh
+Cflags: -I${includedir}

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoshare
+Version: 6.1
+Description: DSM share lib
+Requires: libsynocore libsynosdk libsynoacl libsynofileop
+Requires.private: json-c libsynoafp libsynoddsmcore libsynoglusterfs-dsm libsynonfs libsynoquota libsynosharesnapshot libsynostoragecore synousb synousbcopy libhwcontrol libsynoservice jsoncpp libsodium uuid
+Libs: -L${libdir} -lsynoshare
+Libs.private: -lcrypt
+Cflags: -I${includedir}

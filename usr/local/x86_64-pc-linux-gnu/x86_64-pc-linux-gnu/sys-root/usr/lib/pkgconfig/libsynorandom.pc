@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynorandom
+Description: Synology Random number generator
+Version: 1.0
+Requires: libpcg
+Requires.private: 
+Libs: -L${libdir} -lsynorandom
+Cflags: -I${includedir}

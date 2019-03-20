@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoserviceutil
+Description: Syno service util library
+Version: 6.1
+
+Requires: libsynocore libsynosdk libsynofileop synousb
+Requires.private: libsynohacore libsynoafp libsynoshare libsynoftp libhwcontrol libsynotc libsynofirewall libsynow3 libsynolocalaccount synoiscsiep libsynoautoblock libsynopoweroff libsynoahacore libsynoservice synoprinter
+Libs: -L${libdir} -lsynoserviceutil
+Cflags: -I${includedir}

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoovs
+Version: 1.0
+Description: Synology OpenvSwitch Interface Implementation
+Requires: libsynonetsdk
+Requires.private: libsynosdk libsynocore libsynonetsdkcpp
+Libs: -L${libdir} -lsynoovs
+Libs.private: -lstdc++
+Cflags: -I${includedir}

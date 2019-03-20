@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynosdk
+Description: synology sdk libs
+Version: 1.0
+Requires: json-c
+Requires.private: libsynoacl libsynocore libsynocredentials libsynoddsmcore libsynoglusterfs-dsm sqlite3 libsynoahacore libsynosystemdrcore libsynohacore
+Libs: -L${libdir} -lsynosdk
+Libs.private: -lstdc++ -ldl -lrt -lcrypt -lm -lapparmor
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synodataverifier
+Version: 6.1
+Requires: libsynocore
+Description: Can verify data between storage layers
+Libs: -L${libdir} -lsynodataverifier -lpthread
+Cflags: -I${includedir}

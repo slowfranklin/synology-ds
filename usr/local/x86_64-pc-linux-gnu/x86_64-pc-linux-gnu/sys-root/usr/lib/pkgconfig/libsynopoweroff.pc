@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynopoweroff
+Version: 6.1
+Description: DS poweroff related API and tools, extracted from sdk.
+Requires: libsynocore
+Requires.private: libsynosdk libsynohacore libhwcontrol libsynofeasibilitycheck
+Libs: -L${libdir} -lsynopoweroff
+Libs.private: 
+Cflags: -I${includedir}

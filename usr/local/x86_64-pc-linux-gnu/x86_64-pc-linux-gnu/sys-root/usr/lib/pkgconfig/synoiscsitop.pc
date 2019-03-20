@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoiscsitop
+Version: 6.1
+Requires: libsynocore jsoncpp synoiscsiep
+Description: Read detail LUN info
+Libs: -L${libdir} -lsynoiscsitop
+Cflags: -I${includedir}

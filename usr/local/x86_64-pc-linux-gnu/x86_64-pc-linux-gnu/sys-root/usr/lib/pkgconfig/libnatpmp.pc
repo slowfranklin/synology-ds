@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnatpmp
+Description: libnatpmp
+Version: 1.0
+Requires.private: 
+#-L -l
+Libs: -L${libdir} -lnatpmp
+Libs.private:
+Cflags: -I${includedir}

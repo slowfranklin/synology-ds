@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoquota
+Version: 6.1
+Description: Synology Quota Library
+Requires: libsynosdk libsynofileop
+Requires.private: libsynocore libsynostoragecore sqlite3
+Libs: -L${libdir} -lsynoquota
+Cflags: -I${includedir}

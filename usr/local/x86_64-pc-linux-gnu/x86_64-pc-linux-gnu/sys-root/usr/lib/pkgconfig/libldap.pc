@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libldap
+Description: OpenLDAP library
+Version: 2.4
+
+Requires:
+Libs: -L${libdir} -lldap
+Libs.private: -lsasl2 -lcrypto -llber -ldb -lgssglue
+Cflags: -I${includedir}

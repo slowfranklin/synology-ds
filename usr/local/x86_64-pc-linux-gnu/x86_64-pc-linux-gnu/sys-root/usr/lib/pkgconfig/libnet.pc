@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libnet
+Description: The Libnet Packet Construction Library
+URL: http://packetfactory.openwall.net/projects/libnet/
+Version: 1.0.1
+
+Libs: -L${libdir}  -lnet
+Libs.private:
+Cflags:  -D_DEFAULT_SOURCE -D_BSD_SOURCE -D__BSD_SOURCE -D__FAVOR_BSD -DHAVE_NET_ETHERNET_H -I${includedir}

@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoschedulercgi
+Description: synoscheduler cgi libs
+Version: 1.0
+Requires: jsoncpp
+Requires.private: synoscheduler libsynocore libsynosdk libhwcontrol libsynosysnotify sqlite3 synodb
+Libs: -L${libdir} -lsynoschedulercgi
+Libs.private:
+Cflags: -I${includedir}

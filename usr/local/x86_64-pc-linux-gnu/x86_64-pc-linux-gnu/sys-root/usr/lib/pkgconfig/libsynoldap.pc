@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoldap
+Description: Synology LDAP core libs
+Version: 1.0
+Requires: libsynosdk
+Requires.private: libcurl libsynocore libsynonetsdk libcrypto
+Libs: -L${libdir} -lsynoldap
+Libs.private: -pthread -lpthread
+Cflags: -I${includedir}

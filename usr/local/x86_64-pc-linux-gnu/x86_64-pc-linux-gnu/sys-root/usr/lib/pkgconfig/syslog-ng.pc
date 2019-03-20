@@ -1,0 +1,17 @@
+# Package Information for pkg-config
+prefix=/usr
+exec_prefix=/usr
+datarootdir=${prefix}/share
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+toolsdir=${datarootdir}/tools
+moduledir=/usr/lib/syslog-ng
+scldir=${datarootdir}/include/scl
+ivykis=internal
+
+Name: syslog-ng-dev
+Description: Dev package for syslog-ng module
+Version: 3.7.3
+Requires: glib-2.0 eventlog
+Libs: -L${libdir} -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgthread-2.0 -pthread -lglib-2.0  -lsyslog-ng
+Cflags: -I${includedir}/syslog-ng -I${includedir}/syslog-ng/ivykis

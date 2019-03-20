@@ -1,0 +1,13 @@
+#synoutilscpp.pc.in
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: synoutilscpp
+Description: synoutilscpp
+Version: 1.0
+#-L -l
+Libs: -L/usr/lib -lsynoutils
+Libs.private:
+Cflags: -I/usr/include 

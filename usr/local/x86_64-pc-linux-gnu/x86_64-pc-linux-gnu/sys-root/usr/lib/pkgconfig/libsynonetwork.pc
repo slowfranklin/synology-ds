@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynonetwork
+Version: 1.0
+Description: Synology Wireless C++ library
+Requires: libsynocore libsynosdk
+Requires.private: libsynonetsdk libsynonetsdkcpp libsynotc libsynohacore libsynofileop libhwcontrol libfindhost dbus-1 glib-2.0 dbus-glib-1 jsoncpp libupnp libsynoovs
+Libs: -L${libdir} -lsynonetwork
+Libs.private: -lpthread
+Cflags: -I${includedir}/synowireless -pthread

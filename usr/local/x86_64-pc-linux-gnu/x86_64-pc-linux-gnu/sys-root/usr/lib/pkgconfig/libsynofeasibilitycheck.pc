@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynofeasibilitycheck
+Description: Synology DSM feasibilty check library
+Version: 1
+Libs: -L${libdir} -lsynofeasibilitycheck -lsynocore -ljson 
+Cflags: -I${includedir} -DSYNO_ARRAY_SEARCH -DSYNO_CONVERT_PATCH -DSYNO_WRITE_PATCH -DSYNO_READ_PATCH -DSYNO_DSM_6_0 -DSYNO_ASSERT_PATCH 

@@ -1,0 +1,15 @@
+# Package Information for pkg-config
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynoddsmcore
+Description: synoddsm core lib
+Version: 1.0
+Requires: libsynocore
+Requires.private: json-c
+Libs: -L${libdir} -lsynoddsmcore
+Libs.private: 
+Cflags: -I${includedir}

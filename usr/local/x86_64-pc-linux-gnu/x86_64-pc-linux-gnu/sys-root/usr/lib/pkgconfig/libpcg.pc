@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/pcg
+
+Name: libpcg-0.9.x
+Description: PCG random number generator library
+Version: 0.9.4
+#-L -l
+Libs: -L${libdir}  -lpcg-0.9.x
+Libs.private:
+Cflags: -I${includedir}

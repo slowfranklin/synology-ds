@@ -1,0 +1,9 @@
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libsynoglusterfs-dsm
+Version: 6.1
+Description: lib Synology Glusterfs
+Requires: libsynocore
+Libs: -L${libdir} -lsynoglusterfs-dsm
+Cflags: -I${includedir}

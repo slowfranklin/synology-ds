@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsynocloudservice
+Description: libsynocloudservice
+Version: 1.0
+Requires: libsynocore
+Requires.private: jsoncpp libsynosdk libsynoddsmcore libsynohacore openssl libcurl libsynocredentials
+Libs: -L${libdir} -lsynocloudservice
+Libs.private: -lstdc++
+Cflags: -I${includedir}

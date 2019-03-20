@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=${prefix}
+include_dir=${prefix}/include
+lib_dir=${exec_prefix}/lib
+
+Name: synoindexmake
+Version: 1.0
+Description: 
+Requires:  jsoncpp synoutilscpp
+Requires.private: synoindex
+Libs: -L${lib_dir} -lsynoindexmake
+Libs.private: 
+Cflags: -I${include_dir}

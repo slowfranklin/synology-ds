@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=${prefix}
+include_dir=${prefix}/include
+lib_dir=${exec_prefix}/lib
+
+Name: libsynow3
+Version: 6.1
+Description: Synology WWW Library (libsynow3)
+Requires: jsoncpp libsynoserviceconf libsynocore libsynosdk libsynofileop
+Requires.private: libsynocredentials libsynofirewall libpcrecpp icu-uc
+Libs: -L${lib_dir} -lsynow3
+Libs.private: -lrt -ldl -lm -lstdc++ -pthread
+Cflags: -I${include_dir}

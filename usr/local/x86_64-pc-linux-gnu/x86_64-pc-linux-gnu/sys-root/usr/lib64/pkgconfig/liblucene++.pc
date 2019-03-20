@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include/lucene++
+lib=lucene++
+
+Name: liblucene++
+Description: Lucene++ - a C++ search engine, ported from the popular Apache Lucene
+Version: 3.0.7
+Libs: -L${libdir} -l${lib} -pthread
+Libs.private: -lboost_filesystem -lboost_iostreams -lboost_regex -lboost_system -lboost_thread -lpthread -lm -lstdc++
+Cflags: -I${includedir}
+

@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: libsynorecycle
+Description: libsynorecycle core libs
+Version: 1.0
+Requires: libsynocore libsynosdk libsynofileop
+Requires.private: libsynoacl sqlite3
+Libs: -L${libdir} -lsynorecycle
+Cflags: -I${includedir}
